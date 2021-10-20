@@ -8,6 +8,6 @@
 ![Terapia Familiar](TerapiaFam.png)
 ![Terapia de adultos](terapiaAd.png)
 
-[sobre mi.md](C:\Users\Lucía\OneDrive\Escritorio\Python\HTML\Prueba\Pages\Sobre mi.html)
+[sobre mi.md](https://github.com/LuciaNataliGarcia/prueba1/blob/main/sobre%20mi.html)
 
 
