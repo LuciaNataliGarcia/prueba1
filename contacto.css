@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+body {
+    background-color: #e0b0c7;    
+    margin:auto;
+}
+
+
+
+
+.item-menu {
+    grid-area: menu;
+}
+
+.item-edades {
+    grid-area: edades;
+}
+
+.item-creadora {
+    grid-area: creadora;
+}
+
+.item-formulario {
+    grid-area: formulario;
+    
+}
+.item-subtitulo {
+    grid-area: subtitulo;
+}
+.item-contacto {
+    grid-area: contacto;
+    
+}
+.grid-container-header {
+    grid-area: header;
+   
+}
+
+.ContactoPrincipal {
+    grid-area: ContactoPrincipal;
+}
+
+.grid-container4 {
+    display: grid;
+    grid-template-areas:
+        'header header header header header header'
+        'menu menu menu menu menu menu'
+        'subtitulo subtitulo subtitulo subtitulo subtitulo subtitulo'
+        'ContactoPrincipal ContactoPrincipal ContactoPrincipal ContactoPrincipal ContactoPrincipal ContactoPrincipal'  
+        'edades edades edades edades edades edades'
+        'creadora creadora creadora creadora creadora creadora';
+    grid-gap: 1em;
+    padding: 1em;
+      
+}
+
+.item-titulo {
+    grid-area: titulo;  
+   
+}
+.item-logo {
+    grid-area: logo;
+  
+}
+.grid-container-header {
+    display:grid;
+    grid-template-areas: 
+        'titulo titulo titulo titulo titulo logo';
+    grid-gap: 1em;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.item-logo {
+    flex: 25%;
+}
+.item-titulo {
+    flex: 75%;
+}
+
+.ContactoPrincipal {
+    padding-top: 2em;
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    grid-template-areas: "formulario contacto";                     
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-formulario {
+  grid-column: 1;
+  grid-row: 1;
+  flex: 50%;
+  padding: 1em 1em; 
+  margin: 3em 3em;
+
+}
+.item-contacto {
+    grid-column: 2;
+    grid-row: 1; 
+    flex: 50%;
+    padding: 1em 1em; 
+    margin: 3em 3em;
+}
+
+
+
+
+.titulos
+
+    h1  {
+    color:#f5f6ed;
+    font-size: 3.5em;
+    font-family:'Bebas Neue', cursive, 'Alegreya Sans SC', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;  
+}
+    h2 {
+    color:#f5f6ed;
+    font-family: 'Bebas Neue', cursive, 'Alegreya Sans SC', sans-serif;
+    font-size: 2.5em;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+    h3 {
+    color: #f5f6ed;
+    font: size 1.5em;;
+    font-family: 'Bebas Neue', cursive, 'Alegreya Sans SC', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}  
+ 
+.item-logo img {
+    width: 10em;
+    height: 10em;
+    position: absolute;
+    top: 0.2em;
+    right: 0.2em;
+}
+
+
+.item-menu  { 
+    text-decoration: none;
+    font-family:'Bebas Neue', cursive, 'Alegreya Sans SC', sans-serif;
+    font-size: 1.1em;
+    display: inline;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;    
+    font-weight: 200;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+         
+
+.item-menu .menu button {
+    background-color: #e0b0c7;
+    width: 10em;
+    padding: 0.3em;
+    border: 0.2em onset;
+    margin-top: 0.4em ;
+    margin-bottom: 0.4em;
+}
+
+
+.item-menu .menu button a:visited, a:active, a:link {
+text-decoration: none;
+color: #625A5A;
+}
+
+.item-menu .menu button:hover {
+    font-weight: bold;
+    background-color: #f5f6ed;
+}
+
+.item-formulario, .item-titulo {
+    
+   text-align: center;       
+    
+}
+
+.item-formulario form input {
+    width: 13em;
+    height: 2em;   
+  
+}
+
+.item-formulario form textarea {
+    width: 13em;
+    height: 4em;   
+  
+}
+
+.item-contacto, .item-formulario {
+    border:#f5f6ed solid 2px;
+    border-radius: 20px;
+    margin-bottom: 2em;
+    padding: 2em 2em;
+}
+.formulario, .item-contacto  {
+    font-family: 'Roboto Condensed', 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    color: #625A5A;
+    font-size: 1.3em; 
+    text-align: center;      
+    vertical-align: middle;     
+    margin-left: 2em;
+    margin-right: 2em; 
+    line-height: 2em;
+}
+
+.item-edades {
+background-color: #fff;
+border: 0.2em solid #27407e;
+padding: 0;
+margin: 0;     
+}
+
+#texto_edades p {
+color: #27407e;
+font-size: 2em;
+font-family:'Bebas Neue', cursive, 'Alegreya Sans SC', sans-serif;
+text-align: center;
+}
+
+.imagenes_iso {
+    display:flex;
+    flex-direction: row;        
+    justify-content: space-evenly;
+    
+}
+
+.imagenes_iso img  {
+    width: 17em;
+    
+}
+
+.item-edades #turno {
+    
+    font-family: 'Roboto Condensed', 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    text-decoration: #e0b0c7;
+    text-align: center;
+    
+}
+
+.item.edades #turno a:link, a:visited, a:active {
+    text-decoration:none;
+   
+}
+
+.item-edades #turno button {
+    background-color: #27407e;
+    padding: 0.3em;
+    border: 0.2em onset;
+    margin-top: 0.4em ;
+    margin-bottom: 0.4em;
+    font-family: 'Roboto Condensed', 'Montserrat', sans-serif;    
+        
+}
+
+
+.item-edades #turno button:hover{
+background-color: #f5f6ed;
+font-weight: bold;
+}
+
+
+
+
+h3 {
+margin: 2em;    
+}
+
+.item-contacto a :hover{
+        font-size: 1.7em; 
+        font-weight: bold;
+}
+
+.item-contacto a:link, a:visited, a:active {
+    text-decoration:none;
+    color:#f5f6ed;
+    
+}
+
+.item-creadora > p {
+    
+    font-family: 'Reenie Beanie', cursive, 'Alegreya Sans SC', sans-serif;
+    text-align: center;
+    font-size: 1.2em ;
+    font-style: normal;
+    font-weight: 200;    
+}
+/*
+@media (max-device-width: 640px)  {
+    .grid-container4 {
+      width: 100%;
+    }
+
+}
+
+@media (max-device-width: 1280px) {
+
+    .grid-container4 {
+      width: 100%;
+  }
+}
+
+@media (max-device-width: 1600px) {
+    .grid-container4{
+      width: 100%;
+  }
+}*/
+
+    
+
+  

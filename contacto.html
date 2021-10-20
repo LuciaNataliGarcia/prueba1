@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es"> 
+
+
+<head>
+<meta charset="utf-8"
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&family=Bebas+Neue&family=Montserrat:wght@200&family=Open+Sans+Condensed:wght@300&family=Poiret+One&family=Quicksand:wght@300&family=Raleway:wght@200&family=Reenie+Beanie&family=Roboto+Condensed:wght@300&family=Staatliches&display=swap" rel="stylesheet"> <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="C:\Users\Lucía\OneDrive\Escritorio\Python\CSS\Contacto.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="C:\Users\Lucía\OneDrive\Escritorio\Python\JavaScript\Contacto.js"></script>
+   
+<title>Psicoterapia Díaz</title>
+</head>
+
+<body>
+    
+    <div class="grid-container4"> 
+
+        
+        <header class= "grid-container-header">
+            <div class= "item-titulo">                    
+                    <div class = "titulos">
+                        <div data-aos="flip-left">
+                            <h1>Psicoterapia Díaz<i class="fab fa-pagelines"></i></h1>            
+                        </div>
+                    </div>
+
+                <div class = "item-logo">
+                    <img src="C:\Users\Lucía\OneDrive\Escritorio\Python\Imágenes\logo2.png" alt="Logo">
+                </div>                       
+                    
+                <hr style="height: 3px">    
+            </div>            
+        </header>   
+        
+        
+        
+
+        <div class="item-menu">
+           
+            <nav class = "menu">                    
+                    <button> <a href="C:\Users\Lucía\OneDrive\Escritorio\Python\HTML\Prueba\index.html">Inicio</a> </button> 
+                    <button> <a href="C:\Users\Lucía\OneDrive\Escritorio\Python\HTML\Prueba\Pages\Sobre mi.html" >Sobre mí</a> </button>
+                    <button> <a href="C:\Users\Lucía\OneDrive\Escritorio\Python\HTML\Prueba\Pages\Contacto.html" >Contacto</a> </button>
+                    <button> <a href="C:\Users\Lucía\OneDrive\Escritorio\Python\HTML\Prueba\Pages\Preguntas frecuentes.html" >Preguntas frecuentes</a> </button>
+            </nav>
+        </div>  
+        <div class="item-subtitulo">
+                <div class="titulos">
+                    <h2>Contacto</h2>
+                </div><br>
+        </div>
+        <main class="ContactoPrincipal">
+            
+
+            
+
+            <div class="item-formulario" data-aos="flip-up">
+                            
+                <br><br>
+                <div class="titulos"><h2><i class="fas fa-align-justify"></i></h2></div><br>
+                <div class="formulario">
+                    <form  onsubmit="myFunction()">
+                        <legend><b>Completá tus datos para que me comunique con vos</b></legend>
+                        <br><br>
+                        <label for="fname">Nombre:<abbr title="Este campo es obligatorio">*</abbr></label> <br>
+                        <input type="text" id="fname" name="fname" required minlength="2"><br>
+                        <label for="lname">Apellido:</label><br>
+                        <input type="text" id="lname" name="lname"><br>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required><br>
+                        <span class="error" aria-live="polite"></span>
+                        <label for="tel">Teléfono:<abbr title="Este campo es obligatorio" aria-label="required">*</abbr></label><br>
+                        <input type="number" id="tel" name="tel" required min="11111111" max="99999999999"><br><br> 
+                        <textarea placeholder="Mensaje (opcional)"></textarea> <br><br> 
+                        <label for="opcion">¿Cómo preferís que te contacte?<abbr title="Este campo es obligatorio" >*</abbr></label><br>
+                            
+                            <select id="opcion" required>
+                                <option></option>
+                                <option>Teléfono</option>
+                                <option>Whatsapp</option>
+                                <option>Email</option>
+                            </select>
+                        <br><br>               
+                        <input type="submit" value="Enviar" onsubmit= "myFunction ()">                        
+                    
+                    </form>
+                    <script>
+                        function myFunction() {
+                            alert("Enviado con éxito");
+                        }
+                    </script>
+                </div>
+            </div>
+
+            <div class="item-contacto" data-aos="flip-up">         
+                <div class="titulos">  <h2><i class="fas fa-mobile-alt"></i></h2></div>
+                <br>
+                    <legend><b>También podés contactarte por estos medios haciendo click en los íconos o llamando por teléfono:</b></legend>
+                    <br><br><br><br>            
+                    <p id="item-mail">  <a href="mailto:licdiazmariasoledad@hotmail.com?Subject=Consulta%20por%20turno"> <i class="far fa-envelope"></a></i> licdiazmariasoledad@hotmail.com</p><br>   
+                    <p id="item-instagram">  <a href="https://www.instagram.com/psicoterapia.diaz/?hl=es"> <i class="fab fa-instagram"> </a></i> psicoterapia.diaz</p>  <br>  
+                    <p id="item-linkedin">  <a href="https://www.linkedin.com/in/maria-soledad-d%C3%ADaz-0384118a"><i class="fab fa-linkedin"> </a></i> María Soledad Díaz</p>   <br>  
+                    <p id="item-whatsapp">  <a href="https://wa.me/+5491163029540?text=¡Hola!%20Quiero%20sacar%20un%20turno"> <i class="fab fa-whatsapp"></a></i> +54 9 11 6302-9540</p>
+                
+            </div>
+        </main>
+    
+        <section class = "item-edades">
+        
+            <div id = "texto_edades">                                
+                <p>
+                    Atención de niños, adultos y parejas/familias
+                </p>                
+            </div>
+
+            <div class = "imagenes_iso">
+                <img src="C:\Users\Lucía\OneDrive\Escritorio\Python\Imágenes\TerapiaInf.png" alt="Terapia de niños">
+                <img src="C:\Users\Lucía\OneDrive\Escritorio\Python\Imágenes\terapiaAd.png" alt="Terapia de adultos">
+                <img src="C:\Users\Lucía\OneDrive\Escritorio\Python\Imágenes\TerapiaFam.png" alt="Terapia Familiar">
+            </div>
+
+            <div id= "turno"> 
+                <br>
+                <br>
+                
+                <div data-aos="zoom-in">
+                    <button>
+                        <a href="C:\Users\Lucía\OneDrive\Escritorio\Python\HTML\Prueba\Pages\Contacto.html" target="_blank">
+                            Quiero sacar un turno <i class="fas fa-calendar-check"></i>
+                        </a>   
+                    </button>
+                </div>
+            </div>
+        </section>
+
+                
+        
+        <footer class = "item-creadora">
+            <br>
+            <br>
+                <hr style="height: 3px">
+                <p> <a href="https://www.linkedin.com/in/lucianataligarcia/">  <i class="fab fa-linkedin"></i>  Lucía Natalí García </a> </p>
+        </footer>
+    
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+<script>
+    AOS.init();
+</script>
+<script src="C:\Users\Lucía\OneDrive\Escritorio\Python\JavaScript\Contacto.js"></script>
+</body>
+</html>
+
