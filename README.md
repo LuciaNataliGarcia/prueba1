@@ -6,4 +6,4 @@
 ![telefono](telefono4.png)
 ![Terapia de niños](TerapiaInf.png)
 ![Terapia Familiar](TerapiaFam.png)
-![Terapia de adultos](TerapiaAd.png)
+![Terapia de adultos](terapiaAd.png)
