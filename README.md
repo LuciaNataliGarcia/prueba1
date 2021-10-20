@@ -8,7 +8,7 @@
 ![Terapia Familiar](TerapiaFam.png)
 ![Terapia de adultos](terapiaAd.png)
 
-![sobre mi.md](prueba1/tree/master/sobre mi.html)
+[sobre mi](C:\Users\Lucía\OneDrive\Documentos\GitHub\prueba1)
 
 
 
