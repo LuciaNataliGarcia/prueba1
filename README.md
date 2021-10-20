@@ -8,6 +8,8 @@
 ![Terapia Familiar](TerapiaFam.png)
 ![Terapia de adultos](terapiaAd.png)
 
-[sobre mi.md](https://github.com/LuciaNataliGarcia/prueba1/blob/main/sobre%20mi.html)
+[sobre mi.md](prueba1/tree/master/sobre mi)
+
+
 
 
