@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #e0b0c7 ;
+    background-color: #e0b0c7;
     margin:auto;
 }
 
@@ -83,6 +83,8 @@ body {
         'creadora creadora creadora creadora creadora creadora';
     grid-gap: 1em;
     padding: 1em;
+    display: flex;
+    Flex-wrap: wrap;
 }
 
 .titulos
