@@ -25,8 +25,7 @@ body {
 }
 .item-videos {
     grid-area: videos;
-    display:flex;
-    flex-wrap: wrap;
+    
 }
 .item-textoA {
     grid-area: textoA;
