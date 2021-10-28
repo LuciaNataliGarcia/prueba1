@@ -151,11 +151,9 @@ body {
 .item-logo img {
     width: 10em;
     height: 10em;
-    position:relative;
+    position:absolute;
     top: 0.2em;
-    right: 0.2em;
-
-    
+    right: 0.2em;    
 }
 
 
