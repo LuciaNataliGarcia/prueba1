@@ -89,13 +89,9 @@ body {
 }
 
 .grid-container-header {
-    display:grid;
-    grid-template-areas: 
-    'titulo titulo titulo titulo titulo logo';
-    grid-gap: 1em;
-    padding: 1em;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .item-logo {
