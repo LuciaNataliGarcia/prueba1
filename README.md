@@ -14,7 +14,6 @@ Funciones utilizadas:
 -Íconos de FontAwesome.
 -Fuentes de Google Fonts.
 -Animaciones de Aos en múltiples elementos de la página (Foto en "Sobre Mí", Título H1: "Psicoterapia Díaz", artículos, botón de turno, entre otros)
--Página realizada en Visual Studio y disponibilizada en repositorio GitHub.
 -Alert de Js al enviar formulario (incluido en HTML).
 
 Aspectos a mejorar:
