@@ -23,12 +23,12 @@ Funciones utilizadas:
 -Alert de Js al enviar formulario (incluido en HTML).
 
 Aspectos a mejorar:
--Agrupar imágenes y archivos css en carpetas separadas.
+-Agrupar imágenes y archivos css en carpetas separadas. 
 -Utilizar mejor flexbox para responsive.
 -Unificar una sola stylesheet de CSS.
 -Utilizar validación del formulario con JS.
 -Sacar <button> del menú, y cambiarlo por un borde rectangular en CSS.
--Media Queries.
+-Establecer adónde se envían los datos cargados al formulario.
 
 
 
