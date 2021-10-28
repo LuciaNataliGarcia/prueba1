@@ -294,12 +294,7 @@ margin: 2em;
     font-weight: 200;    
 }
 
-.item-textoA ~ .item-textoC {
-    display: flex;
-    flex-wrap: wrap;
-    flex:50%;
-    flex-direction: column;
-}
+
 
 
 
