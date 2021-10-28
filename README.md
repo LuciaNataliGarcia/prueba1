@@ -29,6 +29,7 @@ Aspectos a mejorar:
 -Utilizar validación del formulario con JS.
 -Sacar <button> del menú, y cambiarlo por un borde rectangular en CSS.
 -Establecer adónde se envían los datos cargados al formulario.
+ -Usar correctamente MediaQueries.
 
 
 
