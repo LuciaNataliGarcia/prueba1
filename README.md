@@ -1,9 +1,4 @@
 # TPO
-Alumna: Lucía Natalí García
-
-Curso: Python Full Stack  
-
-Comisión: 2169
 
 Descripción de la Página: Página web de psicóloga con el objetivo de que la gente se contacte para obtener turnos.
 
