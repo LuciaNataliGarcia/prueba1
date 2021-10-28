@@ -17,6 +17,7 @@ Funciones utilizadas:
 -Alert de Js al enviar formulario (incluido en HTML).
 
 Aspectos a mejorar:
+-Responsive en páginas "Sobre mí" y "Contacto". No sé porqué en las otras anda y en esas no.
 -Agrupar imágenes y archivos css en carpetas separadas (lo tenía así en mi PC, pero se me complicó al subirlo a Github). 
 -Falla responsive en header.
 -Utilizar validación del formulario con JS, lo busqué y consulté, pero no entendí cómo implementarlo.
