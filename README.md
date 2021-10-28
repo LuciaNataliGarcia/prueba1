@@ -1,4 +1,4 @@
-# prueba1
+# TPO
 Alumna: Lucía Natalí García
 
 Curso: Python Full Stack  
